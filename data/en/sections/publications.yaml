@@ -1,10 +1,10 @@
 # section information
 section:
-  name: Publications
+  name: Main Publications
   id: publications
-  enable: false
-  weight: 6
-  showOnNavbar: false
+  enable: true
+  weight: 3
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 

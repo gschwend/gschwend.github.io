@@ -3,73 +3,93 @@ section:
   name: Education
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
-  enable: false
-  weight: 4
-  showOnNavbar: false
+  enable: true
+  weight: 5
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 degrees:
 - name: PhD in Astronomy
-  icon: fa-microscope
+  icon: fa-graduation-cap
   timeframe: 2015-2019
   institution:
     name: Observatório Nacional 
     url: "https://www.gov.br/observatorio/pt-br"
-  publications: #(optional)
-  - title: "Thesis: Using the Dark Energy Survey to Explore Galaxy Evolution"
-    url: "files/thesis_julia_gschwend.pdf" 
-  - title: "Qualify Exam: Galaxy Evolution in clusters and in the field"
-    url: "files/qualify-Julia-Gschwend"
+    logo: /images/sections/education/logo-on-fundoclaro.png
+  customSections: #(optional)
+    - name: Thesis
+      content: "[Using the Dark Energy Survey to Explore Galaxy Evolution](files/thesis_julia_gschwend.pdf)"
+    - name: Qualify Exam
+      content: "[Galaxy Evolution in clusters and in the field](files/qualify-Julia-Gschwend.pdf)"
+    #- name: Certificate
+    #  content: "[PhD Diploma](files/hist_escolar_doutorado.pdf)" 
+    - name: Documents
+      content: "[Scholar Records](files/hist_escolar_doutorado.pdf)" 
+    - name: Supervisor
+      content: Prof. Dr. Marcio Antonio Geimba Maia ([CV Lattes](http://lattes.cnpq.br/0930382185970159))
+  # publications: #(optional) 
+  # - title: "Thesis: Using the Dark Energy Survey to Explore Galaxy Evolution"
+  #   url: "files/thesis_julia_gschwend.pdf" 
+  # - title: "Qualify Exam: Galaxy Evolution in clusters and in the field"
+  #   url: "files/qualify-Julia-Gschwend"
   #- title: "Article: DES Science Portal: Computing photometric redshifts"
   #  url: "files/Gschwend_2018.pdf"
   #- title: "Article: DES Science Portal II: Creating Science-Ready Catalogs"
   #  url: "files/Fausti_2018.pdf" 
-  - title: Scholar Records Document
-    url: "files/hist_escolar_doutorado.pdf"
 
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Processing in Astronomy
-      achieved: A
-      outOf: A
-    - name: Topics on Galaxy Evolution
-      achieved: A
-      outOf: A
-    - name: Positional Astronomy
-      achieved: A
-      outOf: A
+  
+
+  # takenCourses:  #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   collapseAfter: 3
+  #   courses:
+  #   - name: Data Processing in Astronomy
+  #     achieved: A
+  #     outOf: A
+  #   - name: Topics on Galaxy Evolution
+  #     achieved: A
+  #     outOf: A
+  #   - name: Positional Astronomy
+  #     achieved: A
+  #     outOf: A
     
 - name: MSc in Astronomy
-  icon: fa-microscope
+  icon: fa-graduation-cap
   timeframe: 2013-2015
   institution:
     name: Observatório Nacional 
     url: "https://www.gov.br/observatorio/pt-br"
-  publications: #(optional)
-  - title: "Dissertation (text in Portuguese): Implantação e testes de algoritmos de redshift fotométrico no Portal do Dark Energy Survey com
-aplicação à Função de Luminosidade de Galáxias"
-    url: "files/dissertacao-julia" 
-  - title: Scholar Records Document
-    url: "files/hist_escolar_mestrado.pdf"
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Processing in Astronomy
-      achieved: A
-      outOf: A
-    - name: Topics on Galaxy Evolution
-      achieved: A
-      outOf: A
-    - name: Positional Astronomy
-      achieved: A
-      outOf: A
-
+    logo: /images/sections/education/logo-on-fundoclaro.png
+  customSections: #(optional)
+    - name: Dissertation (text in Portuguese)
+      content: "[Implantação e testes de algoritmos de redshift fotométrico no Portal do Dark Energy Survey com aplicação à Função de Luminosidade de Galáxias](files/dissertacao-julia.pdf)" 
+    - name: Documents
+      content: "[Scholar Records](files/hist_escolar_mestrado.pdf)"
+      #   - "[Diploma]()" 
+    - name: Supervisor
+      content: Prof. Dr. Marcio Antonio Geimba Maia ([CV Lattes](http://lattes.cnpq.br/0930382185970159))
+  
+  # publications: #(optional)
+  # - title: "Dissertation (text in Portuguese): Implantação e testes de algoritmos de redshift fotométrico no Portal do Dark Energy Survey com aplicação à Função de Luminosidade de Galáxias"
+  #   url: "files/dissertacao-julia" 
+  # - title: Scholar Records Document
+  #   url: "files/hist_escolar_mestrado.pdf"
+  # # takenCourses:  #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   collapseAfter: 3
+  #   courses:
+  #   - name: Data Processing in Astronomy
+  #     achieved: A
+  #     outOf: A
+  #   - name: Topics on Galaxy Evolution
+  #     achieved: A
+  #     outOf: A
+  #   - name: Positional Astronomy
+  #     achieved: A
+  #     outOf: A
 
 - name: Physics Degree
   icon: fa-graduation-cap
@@ -77,32 +97,34 @@ aplicação à Função de Luminosidade de Galáxias"
   institution:
     name: Universidade do Estado do Rio de Janeiro
     url: "https://www.uerj.br/"
+    logo: /images/sections/education/logomarca-uerj.png 
   grade: #(optional)
     scale: CR
     achieved: 7.9
     outOf: 10
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  # extracurricularActivities:  #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
 
-- name: Python 
-  icon: fa-code
-  timeframe: 2010-2012
-  institution:
-    name: Alura
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+# - name: Formação Python 
+#   icon: fa-code
+#   timeframe: 2010-2012
+#   institution:
+#     name: Alura
+#     url: "https://www.alura.com.br/"
 
-- name: Google Data Analytics Professional Certificate
-  icon: fa-bar-chart
-  timeframe: 2023-2023
-  institution:
-    name: Google on Coursera
-    url: "https://www.coursera.org/professional-certificates/google-data-analytics"
+  # extracurricularActivities:  #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+
+# - name: Google Data Analytics Professional Certificate
+#   icon: fa-bar-chart
+#   timeframe: 2023-2023
+#   institution:
+#     name: Google on Coursera
+#     url: "https://www.coursera.org/professional-certificates/google-data-analytics"
 

@@ -16,6 +16,11 @@ mise install
 ```
 mise run server
 ```
+or 
+```
+hugo server -D
+```
+
 
 ## Updating theme
 - To update theme to latest release, run:

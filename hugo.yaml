@@ -1,4 +1,5 @@
-baseURL: https://gschwend.github.io
+#baseURL: https://juliagschwend.com
+baseURL: "https://gschwend.github.io/"
 
 languageCode: en-us
 title: "Julia Gschwend"
@@ -24,8 +25,8 @@ languages:
     languageName: English  
     weight: 1
   pt: 
-    languageName: Português 
-    weight: 2
+     languageName: Português 
+     weight: 2
   # es: 
   #   languageName: Español
   #   weight: 3
@@ -73,7 +74,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 8
 
   # Configure various features of this theme
   features:
@@ -97,12 +98,12 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
         facebook: false
-        twitter: false
+        x: false
         linkedin: false
         # reddit: false
         whatsapp: false

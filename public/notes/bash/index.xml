@@ -45,15 +45,6 @@
 &lt;/div&gt;</description>
     </item>
     
-    <item>
-      <title>ব্যাশের নোট সমূহ</title>
-      <link>http://localhost:1313/notes/bash/_index.bn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/notes/bash/_index.bn/</guid>
-      <description>&lt;h1 id=&#34;bash-notes&#34;&gt;Bash Notes&lt;/h1&gt;</description>
-    </item>
-    
     
   </channel>
 </rss>

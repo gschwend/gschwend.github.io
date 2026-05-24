@@ -4,15 +4,11 @@
   <url>
     <loc>http://localhost:1313/notes/go/basic/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/go/basic/_index.bn/</loc>
-  </url><url>
     <loc>http://localhost:1313/notes/go/basic/introduction/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/go/advanced/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/go/basic/types/</loc>
-  </url><url>
-    <loc>http://localhost:1313/notes/go/advanced/_index.bn/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/go/basic/flow-control/</loc>
   </url><url>
@@ -205,18 +201,12 @@
   </url><url>
     <loc>http://localhost:1313/notes/go/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/go/_index.bn/</loc>
-  </url><url>
     <loc>http://localhost:1313/search/</loc>
     <priority>0.1</priority>
   </url><url>
     <loc>http://localhost:1313/posts/category/sub-category/_index.bn/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/category/_index.bn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/notes/_index.bn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/_index.bn/</loc>
   </url><url>
     <loc>http://localhost:1313/notes/bash/_index.bn/</loc>
   </url>

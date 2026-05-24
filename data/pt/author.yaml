@@ -7,7 +7,7 @@ image: "images/author/julia.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "julia@linea.org.br"
-  phone: "+5521971223083"
+  #phone: "+5521971223083"
   github: gschwend
   linkedin: julia-gschwend-037010aa
 

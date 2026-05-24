@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a Data Scientist with an academic background. I hold a degree in Physics, an MSc, and a PhD in Astronomy, and I am a self-taught software developer. I love coding! Currently, I lead a small team of data Scientists and developers who are experts in software to support e-science. We build online platforms to help Astronomers do big data analysis. Fun fact: In my free time I study music. I play the bass guitar in family rock band and I started learning piano during the pandemic.'                                                
+summary: 'I am a data scientist with an academic background. I hold a degree in Physics, an MSc, and a PhD in Astronomy, and I am a self-taught software developer. I love coding! Currently, I lead a small team of data scientists and developers who are experts in software to support e-science. We build online platforms to help astronomers do big data analysis. I am also the program manager of BRA-LIN, the Brazilian in-kind contribution program for LSST responsible for the deployment and operations of the Brazilian Independent Data Access Center of the Rubin Observatory. Fun fact: In my free time I study music. I play the bass guitar in family rock band and I started learning piano during the pandemic.'                                                
 
 
 # your social links
@@ -70,36 +70,4 @@ badges:
 #   name: Artificial Intelligence and Machine Learning
 #   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
 #   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
-
-
-- type: soft-skill-indicator
-  name: Communication
-  percentage: 80
-  color: "#2FD3F0"
-
-- type: soft-skill-indicator
-  name: Creativity
-  percentage: 80
-  color: "#2FD3F0"
-
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 75
-  color: "#2FD3F0"
-
-- type: soft-skill-indicator
-  name: Organizational
-  percentage: 95
-  color: "#2FD3F0"
- 
-- type: soft-skill-indicator
-  name: Problem-solving
-  percentage: 90
-  color: "#2FD3F0"
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 95
-  color: "#2FD3F0"
-  #color: yellow
 

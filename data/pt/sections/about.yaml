@@ -2,13 +2,13 @@
 section:
   name: About
   id: about
-  enable: false
+  enable: true
   weight: 1
-  showOnNavbar: false
+  showOnNavbar: true
   template: sections/about.html
 
 # your designation
-designation: Cientista de Dados
+designation: Tech Lead & Cientista de Dados
 # your company information
 company:
   name: LIneA
@@ -19,81 +19,31 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Sou uma cientista de dados com formação acadêmica. Possuo graduação em Física pela UERJ, mestrado e doutorado em Astronomia pelo Observatório Nacional. Sou programadora autodidata e sou apaixonada por tecnologia! Além de programar, hoje também atuo como gerente de projetos de desenvolvimento de software em um laboratório de suporte a e-Ciência. Nós desenhamos, construímos e mantemos plataformas científicas para auxiliar cientistas das áreas de física, astronomia e cosmologia a analisarem grandes volumes de dados.'
+summary: 'Sou uma cientista de dados com formação acadêmica. Possuo graduação em Física, mestrado e doutorado em Astronomia. Sou uma programadora autodidata e adoro programar! Atualmente, lidero um pequeno time de cientistas de dados e desenvolvedores especializados em software para apoiar e-ciência. Construímos plataformas online para ajudar astrônomos a fazer análise de grandes volumes de dados. Também sou gerente de programa do BRA-LIN, o programa de contribuição em espécie brasileira para LSST, responsável pela implantação e operações do Centro Independente Brasileiro de Acesso a Dados do Observatório Rubin. Curiosidade: no meu tempo livre, estudo música. Toco baixo em uma banda de rock familiar e comecei a aprender piano durante a pandemia.'
+
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "julia@linea.org.br"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/gschwend"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+  url: "https://www.linkedin.com/in/julia-gschwend-037010aa/"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "Meu currículo"
-  url: "files/CV_Julia_Gschwend_dec_2022.pdf"
+  url: "files/CV____1_page__EN_.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+badges: []
 
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
-
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 100
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 100
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 100
-  color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"

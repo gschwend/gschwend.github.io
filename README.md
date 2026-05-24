@@ -22,7 +22,7 @@ mise run server
 ```
 mise run update
 ```
-- To update theme to latest commit from `main` brnach, run:
+-- To update theme to latest commit from `main` branch, run:
 ```
 mise run update-to-main
 ```
